@@ -1,0 +1,167 @@
+{
+  "label": "Техносферы",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "summary": "system.summary.value"
+  },
+  "folders": {
+    "Hoplospheres": "Гоплосферы",
+    "Mnemospheres": "Мнесосферы"
+  },
+  "entries": {
+    "Agile Hoplosphere": {
+      "name": "Ловкая Гоплосфера"
+    },
+    "Arctic Hoplosphere": {
+      "name": "Арктическая Гоплосфера"
+    },
+    "Blessed Hoplosphere": {
+      "name": "Благословенная Гоплосфера"
+    },
+    "Brave Hoplosphere": {
+      "name": "Смелая Гоплосфера"
+    },
+    "Crystalline Hoplosphere": {
+      "name": "Кристаллическая Гоплосфера"
+    },
+    "Cyclonic Hoplosphere": {
+      "name": "Циклоническая Гоплосфера"
+    },
+    "Dark Hoplosphere": {
+      "name": "Тёмная Гоплосфера"
+    },
+    "Dazing Hoplosphere": {
+      "name": "Ошеломляющая Гоплосфера"
+    },
+    "Disrupting Hoplosphere": {
+      "name": "Разрушающая Гоплосфера"
+    },
+    "Draining Hoplosphere": {
+      "name": "Истощающая Гоплосфера"
+    },
+    "Energizing Hoplosphere": {
+      "name": "Энергизирующая Гоплосфера"
+    },
+    "Expansive Hoplosphere": {
+      "name": "Расширяющая Гоплосфера"
+    },
+    "Ghastly Hoplosphere": {
+      "name": "Жуткая Гоплосфера"
+    },
+    "Gladiator Hoplosphere": {
+      "name": "Гладиаторская Гоплосфера"
+    },
+    "Knightly Hoplosphere": {
+      "name": "Рыцарская Гоплосфера"
+    },
+    "Medical Hoplosphere": {
+      "name": "Медицинская Гоплосфера"
+    },
+    "Mighty Hoplosphere": {
+      "name": "Могучая Гоплосфера"
+    },
+    "Mnemosphere: Chanter": {
+      "name": "Мнесосфера: Певчий"
+    },
+    "Mnemosphere: Chimerist": {
+      "name": "Мнесосфера: Химерист"
+    },
+    "Mnemosphere: Commander": {
+      "name": "Мнесосфера: Командир"
+    },
+    "Mnemosphere: Dancer": {
+      "name": "Мнесосфера: Танцор"
+    },
+    "Mnemosphere: Elementalist": {
+      "name": "Мнесосфера: Элементалист"
+    },
+    "Mnemosphere: Entropist": {
+      "name": "Мнесосфера: Энтропист"
+    },
+    "Mnemosphere: Esper": {
+      "name": "Мнесосфера: Эспер"
+    },
+    "Mnemosphere: Fury": {
+      "name": "Мнесосфера: Ярость"
+    },
+    "Mnemosphere: Guardian": {
+      "name": "Мнесосфера: Страж"
+    },
+    "Mnemosphere: Loremaster": {
+      "name": "Мнесосфера: Мастер Знаний"
+    },
+    "Mnemosphere: Orator": {
+      "name": "Мнесосфера: Оратор"
+    },
+    "Mnemosphere: Rogue": {
+      "name": "Мнесосфера: Плут"
+    },
+    "Mnemosphere: Sharpshooter": {
+      "name": "Мнесосфера: Снайпер"
+    },
+    "Mnemosphere: Spiritist": {
+      "name": "Мнесосфера: Спиритист"
+    },
+    "Mnemosphere: Weaponmaster": {
+      "name": "Мнесосфера: Мастер Оружия"
+    },
+    "Occult Hoplosphere": {
+      "name": "Оккультная Гоплосфера"
+    },
+    "Piercing Hoplosphere": {
+      "name": "Пробивающая Гоплосфера"
+    },
+    "Poisonous Hoplosphere": {
+      "name": "Ядовитая Гоплосфера"
+    },
+    "Predator Hoplosphere": {
+      "name": "Хищническая Гоплосфера"
+    },
+    "Quick Hoplosphere": {
+      "name": "Быстрая Гоплосфера"
+    },
+    "Radiant Hoplosphere": {
+      "name": "Сияющая Гоплосфера"
+    },
+    "Reaping Hoplosphere": {
+      "name": "Жатвенная Гоплосфера"
+    },
+    "Revealing Hoplosphere": {
+      "name": "Раскрывающая Гоплосфера"
+    },
+    "Scornful Hoplosphere": {
+      "name": "Презрительная Гоплосфера"
+    },
+    "Seismic Hoplosphere": {
+      "name": "Сейсмическая Гоплосфера"
+    },
+    "Sharpening Hoplosphere": {
+      "name": "Затачивающая Гоплосфера"
+    },
+    "Skeptical Hoplosphere": {
+      "name": "Скептическая Гоплосфера"
+    },
+    "Snaring Hoplosphere": {
+      "name": "Ловчая Гоплосфера"
+    },
+    "Sorcerous Hoplosphere": {
+      "name": "Колдовская Гоплосфера"
+    },
+    "Steadfast Hoplosphere": {
+      "name": "Непоколебимая Гоплосфера"
+    },
+    "Tiring Hoplosphere": {
+      "name": "Утомляющая Гоплосфера"
+    },
+    "Toxic Hoplosphere": {
+      "name": "Токсичная Гоплосфера"
+    },
+    "Volcanic Hoplosphere": {
+      "name": "Вулканическая Гоплосфера"
+    },
+    "Voltaic Hoplosphere": {
+      "name": "Вольтова Гоплосфера"
+    }
+  }
+}

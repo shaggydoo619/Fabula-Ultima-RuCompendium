@@ -1,0 +1,98 @@
+{
+  "label": "Расходники",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "summary": "system.summary.value"
+  },
+  "folders": {
+    "Alchemy": "Алхимия",
+    "Infusion": "Инфузия",
+    "Items": "Предметы",
+    "Magicannon": "Магипушка",
+    "Magisphere": "Магисфера",
+    "Tinkerer Only": "Только для Изобретателя"
+  },
+  "entries": {
+    "Advanced Alchemy": {
+      "name": "Продвинутая Алхимия",
+      "description": "<p><strong>Требования:</strong> <strong>Продвинутые</strong> преимущества @UUID[Compendium.projectfu.skills.Item.SsR6UJXT65Q1qNO2]{Гаджет - Алхимия}.</p><hr /><p>За 4 Очка Инвентаря бросьте <strong>три d20</strong> и назначьте одну на <strong>цель</strong>, а другую на <strong>эффект</strong>.</p>"
+    },
+    "Basic Alchemy": {
+      "name": "Базовая Алхимия",
+      "description": "<p><strong>Требования:</strong> <strong>Базовые</strong> преимущества @UUID[Compendium.projectfu.skills.Item.SsR6UJXT65Q1qNO2]{Гаджет - Алхимия}.</p><hr /><p>За 3 Очка Инвентаря бросьте <strong>две d20</strong> и назначьте одну на <strong>цель</strong>, а другую на <strong>эффект</strong>.</p>"
+    },
+    "Elemental Shard": {
+      "name": "Элементальный Осколок",
+      "description": "<p>Вы наносите 10 урона выбранного вами типа (<strong>воздух</strong>, <strong>молния</strong>, <strong>земля</strong>, <strong>огонь</strong> или <strong>лёд</strong>) одному существу, которое видите.</p>",
+      "summary": "Вы наносите 10 урона выбранного вами типа (воздух, молния, земля, огонь или лёд) одному существу, которое видите."
+    },
+    "Elixir": {
+      "name": "Эликсир",
+      "description": "<p>Одно существо восстанавливает 50 Очков Разума.</p>",
+      "summary": "Одно существо восстанавливает 50 Очков Разума."
+    },
+    "Infusion: Vampire (Superior)": {
+      "name": "Инфузия: Вампир (Высшая)",
+      "description": "<p><strong>Требования:</strong> <strong>Высшие</strong> преимущества в @UUID[Compendium.projectfu.skills.Item.1tfYFkiXLuTOUmre]{Гаджет - Инфузия}.</p><hr /><p>За 2 Очка Инвентаря выберите один вариант: вы восстанавливаете количество HP, равное половине потери HP, понесённой целью атаки; <strong>или</strong> вы восстанавливаете количество MP, равное половине потери HP, понесённой целью атаки.</p><p>Эта инфузия может быть использована только если атака нацеливалась на одно существо.</p>"
+    },
+    "Magic Tent": {
+      "name": "Магическая Палатка",
+      "description": "<p>Позволяет всей группе <strong>отдыхать</strong>, находясь в дикой местности. Не может быть использована в поселениях.</p>",
+      "summary": "Позволяет всей группе отдыхать в дикой местности."
+    },
+    "Magicannon (Air)": {
+      "name": "Магипушка (Воздух)",
+      "description": "<p>Магитехническое огнестрельное оружие, наносящее урон <strong>воздухом</strong> @ICON[air].</p>",
+      "summary": "Магитехническое огнестрельное оружие, наносящее урон воздухом."
+    },
+    "Magicannon (Bolt)": {
+      "name": "Магипушка (Молния)",
+      "description": "<p>Магитехническое огнестрельное оружие, наносящее урон <strong>молнией</strong> @ICON[bolt].</p>",
+      "summary": "Магитехническое огнестрельное оружие, наносящее урон молнией."
+    },
+    "Magicannon (Earth)": {
+      "name": "Магипушка (Земля)",
+      "description": "<p>Магитехническое огнестрельное оружие, наносящее урон <strong>землёй</strong> @ICON[earth].</p>",
+      "summary": "Магитехническое огнестрельное оружие, наносящее урон землёй."
+    },
+    "Magicannon (Fire)": {
+      "name": "Магипушка (Огонь)",
+      "description": "<p>Магитехническое огнестрельное оружие, наносящее урон <strong>огнём</strong> @ICON[fire].</p>",
+      "summary": "Магитехническое огнестрельное оружие, наносящее урон огнём."
+    },
+    "Magicannon (Ice)": {
+      "name": "Магипушка (Лёд)",
+      "description": "<p>Магитехническое огнестрельное оружие, наносящее урон <strong>льдом</strong> @ICON[ice].</p>",
+      "summary": "Магитехническое огнестрельное оружие, наносящее урон льдом."
+    },
+    "Magicannon (Item)": {
+      "name": "Магипушка (Предмет)",
+      "description": "<h5>Требуется: Продвинутые Преимущества в @UUID[Compendium.projectfu.skills.Item.EmwWSYlFjlUSGPLL]{Гаджет - Магитех}</h5><p>Вы можете выполнить действие <strong>Инвентарь</strong> и потратить 2 Очка Инвентаря, чтобы создать <strong>магипушку</strong> (см. ниже) и уничтожить любую ранее созданную вами <strong>магипушку</strong>. Если вы это делаете и оба ваших <strong>слота рук</strong> пусты, вы можете немедленно экипировать только что созданную <strong>магипушку</strong> и совершить ею <strong>бесплатную атаку</strong>. Всякий раз, когда вы создаёте <strong>магипушку</strong>, выберите тип урона, который она наносит, среди <strong>воздух</strong>, <strong>молния</strong>, <strong>земля</strong>, <strong>огонь</strong>, <strong>лёд</strong> или <strong>физический</strong>.</p><hr /><ul><li><p>@UUID[Compendium.projectfu.consumables.Item.EGvZsEWEhaTqoCgG]{Магипушка (Воздух)}</p></li><li><p>@UUID[Compendium.projectfu.consumables.Item.uuKKqm81klCOiDjO]{Магипушка (Молния)}</p></li><li><p>@UUID[Compendium.projectfu.consumables.Item.sREYRTy6TfK8fe53]{Магипушка (Земля)}</p></li><li><p>@UUID[Compendium.projectfu.consumables.Item.jHbcjw8RW9Ywesyu]{Магипушка (Огонь)}</p></li><li><p>@UUID[Compendium.projectfu.consumables.Item.eVOnHgRLTnL695cP]{Магипушка (Лёд)}</p></li><li><p>@UUID[Compendium.projectfu.consumables.Item.MJoIwfTvo0FHcDqL]{Магипушка (Физическая)}</p></li></ul>",
+      "summary": "Создайте огнестрельное оружие, наносящее воздух, молнию, землю, огонь, лёд или физический урон."
+    },
+    "Magicannon (Physical)": {
+      "name": "Магипушка (Физическая)",
+      "description": "<p>Магитехническое огнестрельное оружие, наносящее <strong>физический</strong> урон @ICON[physical].</p>",
+      "summary": "Магитехническое огнестрельное оружие, наносящее физический урон."
+    },
+    "Magisphere (Superior)": {
+      "name": "Магисфера (Высшая)",
+      "description": "<p><strong>Требования:</strong> <strong>Высшие</strong> преимущества в @UUID[Compendium.projectfu.skills.Item.EmwWSYlFjlUSGPLL]{Гаджет - Магитех}.</p><hr /><p>Вы разрабатываете <strong>магисферу</strong> для каждого из <strong>трёх заклинаний</strong> из числа найденных в списках <strong>Элементалиста</strong>, <strong>Энтрописта</strong> и <strong>Спиритиста</strong>; эти заклинания могут быть из одного списка или из разных (это <strong>не</strong> считается «изучением» или «знанием» этих заклинаний).</p><p>Вы разрабатываете новую <strong>магисферу</strong> по достижении <strong>20 уровня</strong>, и ещё одну по достижении <strong>40 уровня</strong> (то же самое applies, если вы уже достигли этих уровней).</p><p>Вы можете выполнить действие <strong>Инвентарь</strong> и потратить 2 Очка Инвентаря, чтобы бесплатно выполнить действие <strong>Заклинание</strong>, наложив одно из заклинаний, для которого вы разработали <strong>магисферу</strong>. Заклинание подчиняется обычным правилам (включая стоимость MP и магические проверки).</p><hr /><p>Для разбора <strong>заклинаний</strong> см.: @UUID[Compendium.projectfu.handouts.JournalEntry.U0zSlmaK8PDCjMlV]{Правила Заклинаний} или <strong>Core Rulebook,</strong> стр. <strong>114</strong>.<br />Для <strong>списков заклинаний</strong> см.:</p><ul><li><p><strong>Элементалист</strong>. @UUID[Compendium.projectfu.handouts.JournalEntry.hK8r8lsQNaknSqdq.JournalEntryPage.z1OeFUn5ckVmO5oW]{СПИСОК ЗАКЛИНАНИЙ ЭЛЕМЕНТАЛИСТА} или <strong>Core Rulebook,</strong> стр. <strong>188</strong>.</p></li><li><p><strong>Энтропист</strong>. @UUID[Compendium.projectfu.handouts.JournalEntry.jZeTJrK0mFsRyz8S.JournalEntryPage.z1OeFUn5ckVmO5oW]{СПИСОК ЗАКЛИНАНИЙ ЭНТРОПИСТА} или <strong>Core Rulebook,</strong> стр. <strong>192</strong>.</p></li><li><p><strong>Спиритист</strong>. @UUID[Compendium.projectfu.handouts.JournalEntry.L65ajg6cmHEk3zAP.JournalEntryPage.z1OeFUn5ckVmO5oW]{СПИСОК ЗАКЛИНАНИЙ СПИРИТИСТА} или <strong>Core Rulebook,</strong> стр. <strong>208</strong>.</p></li></ul>"
+    },
+    "Remedy": {
+      "name": "Средство",
+      "description": "<p>Одно существо восстанавливает 50 Очков Жизни.</p>",
+      "summary": "Одно существо восстанавливает 50 Очков Жизни."
+    },
+    "Superior Alchemy": {
+      "name": "Высшая Алхимия",
+      "description": "<p><strong>Требования:</strong> <strong>Высшие</strong> преимущества @UUID[Compendium.projectfu.skills.Item.SsR6UJXT65Q1qNO2]{Гаджет - Алхимия}.</p><hr /><p>За 5 Очков Инвентаря бросьте <strong>четыре d20</strong> и назначьте одну на <strong>цель</strong>, а другую на <strong>эффект</strong>.</p>"
+    },
+    "Tonic": {
+      "name": "Тоник",
+      "description": "<p>Одно существо восстанавливается от всех статусных эффектов.</p>",
+      "summary": "Одно существо восстанавливается от всех статусных эффектов."
+    }
+  }
+}

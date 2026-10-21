@@ -1,0 +1,29 @@
+{
+  "label": "Состояния",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "summary": "system.summary.value"
+  },
+  "folders": {},
+  "entries": {
+    "Dazed": {
+      "name": "Ошеломление"
+    },
+    "Enraged": {
+      "name": "Ярость"
+    },
+    "Poisoned": {
+      "name": "Отравление"
+    },
+    "Shaken": {
+      "name": "Потрясение"
+    },
+    "Slow": {
+      "name": "Замедление"
+    },
+    "Weak": {
+      "name": "Ослабление"
+    }
+  }
+}

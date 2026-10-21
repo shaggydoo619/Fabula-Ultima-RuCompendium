@@ -1,0 +1,792 @@
+{
+  "label": "Эффекты Снаряжения",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "summary": "system.summary.value"
+  },
+  "folders": {
+    "Absorption": "Поглощение",
+    "Affinities": "Аффинити",
+    "All": "Все",
+    "Alter Damage Type": "Изменение Типа Урона",
+    "Alter Target Defense": "Изменение Защиты Цели",
+    "Attack": "Атака",
+    "Attribute Change": "Изменение Характеристики",
+    "Attribute Down": "Понижение Характеристики",
+    "Attribute Up": "Повышение Характеристики",
+    "Check Up": "Повышение Проверки",
+    "Damage Bonus": "Бонус к Урону",
+    "Damage Incoming Alteration": "Изменение Входящего Урона",
+    "Damage Reduction": "Снижение Урона",
+    "Damage Type Change": "Смена Типа Урона",
+    "Damage Types": "Типы Урона",
+    "Damage Weakness": "Слабость к Урону",
+    "Exploit Status": "Использование Статуса",
+    "Hunter": "Охотник",
+    "Ignore Affinities": "Игнорирование Аффинити",
+    "Immunity": "Иммунитет",
+    "Improve Defenses": "Улучшение Защиты",
+    "Inflict Status": "Наложение Статуса",
+    "Inflict Status on Spell": "Наложение Статуса Заклинанием",
+    "Opposed Check Up": "Повышение Встречной Проверки",
+    "Recovery Up": "Повышение Восстановления",
+    "Reduce Cost": "Снижение Стоимости",
+    "Resistance": "Сопротивление",
+    "Restore Up": "Повышение Лечения",
+    "Skill": "Навык",
+    "Species Types": "Типы Видов",
+    "Spell": "Заклинание",
+    "Spell Damage Types": "Типы Урона Заклинаний",
+    "Status Effect Immunity": "Иммунитет к Статусным Эффектам",
+    "Statused": "Под Статусом",
+    "Thorns": "Шипы",
+    "Vulnerability": "Уязвимость",
+    "Weapon Alterations": "Изменения Оружия",
+    "Weapon Categories": "Категории Оружия",
+    "Weapon Category Accuracy": "Точность Категории Оружия"
+  },
+  "entries": {
+    "Accuracy Check Up": {
+      "name": "Повышение Проверки Точности"
+    },
+    "Air Absorption": {
+      "name": "Поглощение Воздуха"
+    },
+    "Air Damage Reduction": {
+      "name": "Снижение Урона Воздухом"
+    },
+    "Air Damage Up": {
+      "name": "Повышение Урона Воздухом"
+    },
+    "Air Damage Weakness": {
+      "name": "Слабость к Урону Воздухом"
+    },
+    "Air Immunity": {
+      "name": "Иммунитет к Воздуху"
+    },
+    "Air Resistance": {
+      "name": "Сопротивление Воздуху"
+    },
+    "Air Spell Damage Up": {
+      "name": "Повышение Урона Заклинаний Воздухом"
+    },
+    "Air Thorns": {
+      "name": "Шипы Воздуха"
+    },
+    "Air Vulnerability": {
+      "name": "Уязвимость к Воздуху"
+    },
+    "All Damage Reduction": {
+      "name": "Снижение Всего Урона"
+    },
+    "All Damage Up": {
+      "name": "Повышение Всего Урона"
+    },
+    "All Damage Weakness": {
+      "name": "Слабость ко Всему Урону"
+    },
+    "All Status Immunity": {
+      "name": "Иммунитет ко Всем Статусам"
+    },
+    "Alter Damage Type (Air)": {
+      "name": "Изменение Типа Урона (Воздух)"
+    },
+    "Alter Damage Type (Bolt)": {
+      "name": "Изменение Типа Урона (Молния)"
+    },
+    "Alter Damage Type (Dark)": {
+      "name": "Изменение Типа Урона (Тьма)"
+    },
+    "Alter Damage Type (Earth)": {
+      "name": "Изменение Типа Урона (Земля)"
+    },
+    "Alter Damage Type (Fire)": {
+      "name": "Изменение Типа Урона (Огонь)"
+    },
+    "Alter Damage Type (Ice)": {
+      "name": "Изменение Типа Урона (Лёд)"
+    },
+    "Alter Damage Type (Light)": {
+      "name": "Изменение Типа Урона (Свет)"
+    },
+    "Alter Damage Type (Physical)": {
+      "name": "Изменение Типа Урона (Физический)"
+    },
+    "Alter Damage Type (Poison)": {
+      "name": "Изменение Типа Урона (Яд)"
+    },
+    "Alter Damage Type (Untyped)": {
+      "name": "Изменение Типа Урона (Без Типа)"
+    },
+    "Alter Target Defense (DEF)": {
+      "name": "Изменение Защиты Цели (DEF)"
+    },
+    "Alter Target Defense (DEX)": {
+      "name": "Изменение Защиты Цели (DEX)"
+    },
+    "Alter Target Defense (INS)": {
+      "name": "Изменение Защиты Цели (INS)"
+    },
+    "Alter Target Defense (MDEF)": {
+      "name": "Изменение Защиты Цели (MDEF)"
+    },
+    "Alter Target Defense (MIG)": {
+      "name": "Изменение Защиты Цели (MIG)"
+    },
+    "Alter Target Defense (WLP)": {
+      "name": "Изменение Защиты Цели (WLP)"
+    },
+    "Arcane Accuracy Check Up": {
+      "name": "Повышение Проверки Точности Арканным Оружием"
+    },
+    "Arcane Damage Up": {
+      "name": "Повышение Урона Арканным Оружием"
+    },
+    "Attack Damage Change (Air)": {
+      "name": "Смена Урона Атаки (Воздух)"
+    },
+    "Attack Damage Change (Bolt)": {
+      "name": "Смена Урона Атаки (Молния)"
+    },
+    "Attack Damage Change (Dark)": {
+      "name": "Смена Урона Атаки (Тьма)"
+    },
+    "Attack Damage Change (Earth)": {
+      "name": "Смена Урона Атаки (Земля)"
+    },
+    "Attack Damage Change (Fire)": {
+      "name": "Смена Урона Атаки (Огонь)"
+    },
+    "Attack Damage Change (Ice)": {
+      "name": "Смена Урона Атаки (Лёд)"
+    },
+    "Attack Damage Change (Light)": {
+      "name": "Смена Урона Атаки (Свет)"
+    },
+    "Attack Damage Change (Physical)": {
+      "name": "Смена Урона Атаки (Физический)"
+    },
+    "Attack Damage Change (Poison)": {
+      "name": "Смена Урона Атаки (Яд)"
+    },
+    "Attack Damage Change (Untyped)": {
+      "name": "Смена Урона Атаки (Без Типа)"
+    },
+    "Awaken MP Cost Half": {
+      "name": "Половина Стоимости MP Пробуждения"
+    },
+    "Beast Damage Up": {
+      "name": "Повышение Урона по Зверям"
+    },
+    "Bladestorm MP Cost Half": {
+      "name": "Половина Стоимости MP Бури Клинков"
+    },
+    "Bolt Absorption": {
+      "name": "Поглощение Молнии"
+    },
+    "Bolt Damage Reduction": {
+      "name": "Снижение Урона Молнией"
+    },
+    "Bolt Damage Up": {
+      "name": "Повышение Урона Молнией"
+    },
+    "Bolt Damage Weakness": {
+      "name": "Слабость к Урону Молнией"
+    },
+    "Bolt Immunity": {
+      "name": "Иммунитет к Молнии"
+    },
+    "Bolt Resistance": {
+      "name": "Сопротивление Молнии"
+    },
+    "Bolt Spell Damage Up": {
+      "name": "Повышение Урона Заклинаний Молнией"
+    },
+    "Bolt Thorns": {
+      "name": "Шипы Молнии"
+    },
+    "Bolt Vulnerability": {
+      "name": "Уязвимость к Молнии"
+    },
+    "Bow Accuracy Check Up": {
+      "name": "Повышение Проверки Точности Луком"
+    },
+    "Bow Damage Up": {
+      "name": "Повышение Урона Луком"
+    },
+    "Brawling Accuracy Check Up": {
+      "name": "Повышение Проверки Точности Безоружным Оружием"
+    },
+    "Brawling Damage Up": {
+      "name": "Повышение Урона Безоружным Оружием"
+    },
+    "Construct Damage Up": {
+      "name": "Повышение Урона по Конструктам"
+    },
+    "DEF & MDEF Up": {
+      "name": "Повышение DEF и MDEF"
+    },
+    "DEF Up": {
+      "name": "Повышение DEF"
+    },
+    "DEX Down": {
+      "name": "Понижение DEX"
+    },
+    "DEX Up": {
+      "name": "Повышение DEX"
+    },
+    "Dagger Accuracy Check Up": {
+      "name": "Повышение Проверки Точности Кинжалом"
+    },
+    "Dagger Damage Up": {
+      "name": "Повышение Урона Кинжалом"
+    },
+    "Damage Change (Air)": {
+      "name": "Смена Урона (Воздух)"
+    },
+    "Damage Change (Bolt)": {
+      "name": "Смена Урона (Молния)"
+    },
+    "Damage Change (Dark)": {
+      "name": "Смена Урона (Тьма)"
+    },
+    "Damage Change (Earth)": {
+      "name": "Смена Урона (Земля)"
+    },
+    "Damage Change (Fire)": {
+      "name": "Смена Урона (Огонь)"
+    },
+    "Damage Change (Ice)": {
+      "name": "Смена Урона (Лёд)"
+    },
+    "Damage Change (Light)": {
+      "name": "Смена Урона (Свет)"
+    },
+    "Damage Change (Physical)": {
+      "name": "Смена Урона (Физический)"
+    },
+    "Damage Change (Poison)": {
+      "name": "Смена Урона (Яд)"
+    },
+    "Damage Change (Untyped)": {
+      "name": "Смена Урона (Без Типа)"
+    },
+    "Dark Absorption": {
+      "name": "Поглощение Тьмы"
+    },
+    "Dark Damage Reduction": {
+      "name": "Снижение Урона Тьмой"
+    },
+    "Dark Damage Up": {
+      "name": "Повышение Урона Тьмой"
+    },
+    "Dark Damage Weakness": {
+      "name": "Слабость к Урону Тьмой"
+    },
+    "Dark Immunity": {
+      "name": "Иммунитет к Тьме"
+    },
+    "Dark Resistance": {
+      "name": "Сопротивление Тьме"
+    },
+    "Dark Spell Damage Up": {
+      "name": "Повышение Урона Заклинаний Тьмой"
+    },
+    "Dark Thorns": {
+      "name": "Шипы Тьмы"
+    },
+    "Dark Vulnerability": {
+      "name": "Уязвимость к Тьме"
+    },
+    "Dazed Damage Up": {
+      "name": "Повышение Урона по Ошеломлённым"
+    },
+    "Dazed Immunity": {
+      "name": "Иммунитет к Ошеломлению"
+    },
+    "Demon Damage Up": {
+      "name": "Повышение Урона по Демонам"
+    },
+    "Earth Absorption": {
+      "name": "Поглощение Земли"
+    },
+    "Earth Damage Reduction": {
+      "name": "Снижение Урона Землёй"
+    },
+    "Earth Damage Up": {
+      "name": "Повышение Урона Землёй"
+    },
+    "Earth Damage Weakness": {
+      "name": "Слабость к Урону Землёй"
+    },
+    "Earth Immunity": {
+      "name": "Иммунитет к Земле"
+    },
+    "Earth Resistance": {
+      "name": "Сопротивление Земле"
+    },
+    "Earth Spell Damage Up": {
+      "name": "Повышение Урона Заклинаний Землёй"
+    },
+    "Earth Thorns": {
+      "name": "Шипы Земли"
+    },
+    "Earth Vulnerability": {
+      "name": "Уязвимость к Земле"
+    },
+    "Elemental Damage Up": {
+      "name": "Повышение Элементального Урона"
+    },
+    "Enraged Damage Up": {
+      "name": "Повышение Урона по Яростным"
+    },
+    "Enraged Immunity": {
+      "name": "Иммунитет к Ярости"
+    },
+    "Exploit  (Shaken)": {
+      "name": "Использование (Потрясение)"
+    },
+    "Exploit (Dazed)": {
+      "name": "Использование (Ошеломление)"
+    },
+    "Exploit (Enraged)": {
+      "name": "Использование (Ярость)"
+    },
+    "Exploit (Poisoned)": {
+      "name": "Использование (Отравление)"
+    },
+    "Exploit (Slow)": {
+      "name": "Использование (Замедление)"
+    },
+    "Exploit (Weak)": {
+      "name": "Использование (Ослабление)"
+    },
+    "Fire Absorption": {
+      "name": "Поглощение Огня"
+    },
+    "Fire Damage Reduction": {
+      "name": "Снижение Урона Огнём"
+    },
+    "Fire Damage Up": {
+      "name": "Повышение Урона Огнём"
+    },
+    "Fire Damage Weakness": {
+      "name": "Слабость к Урону Огнём"
+    },
+    "Fire Immunity": {
+      "name": "Иммунитет к Огню"
+    },
+    "Fire Resistance": {
+      "name": "Сопротивление Огню"
+    },
+    "Fire Spell Damage Up": {
+      "name": "Повышение Урона Заклинаний Огнём"
+    },
+    "Fire Thorns": {
+      "name": "Шипы Огня"
+    },
+    "Fire Vulnerability": {
+      "name": "Уязвимость к Огню"
+    },
+    "Firearm Accuracy Check Up": {
+      "name": "Повышение Проверки Точности Огнестрельным Оружием"
+    },
+    "Firearm Damage Up": {
+      "name": "Повышение Урона Огнестрельным Оружием"
+    },
+    "Flail Accuracy Check Up": {
+      "name": "Повышение Проверки Точности Цепом"
+    },
+    "Flail Damage Up": {
+      "name": "Повышение Урона Цепом"
+    },
+    "HP Cost Down": {
+      "name": "Снижение Стоимости HP"
+    },
+    "HP Recovery Up": {
+      "name": "Повышение Восстановления HP"
+    },
+    "Heavy Accuracy Check Up": {
+      "name": "Повышение Проверки Точности Тяжёлым Оружием"
+    },
+    "Heavy Damage Up": {
+      "name": "Повышение Урона Тяжёлым Оружием"
+    },
+    "Humanoid Damage Up": {
+      "name": "Повышение Урона по Гуманоидам"
+    },
+    "Hunter (Beast)": {
+      "name": "Охотник (Зверь)"
+    },
+    "Hunter (Construct)": {
+      "name": "Охотник (Конструкт)"
+    },
+    "Hunter (Demon)": {
+      "name": "Охотник (Демон)"
+    },
+    "Hunter (Elemental)": {
+      "name": "Охотник (Элементаль)"
+    },
+    "Hunter (Humanoid)": {
+      "name": "Охотник (Гуманоид)"
+    },
+    "Hunter (Monster)": {
+      "name": "Охотник (Монстр)"
+    },
+    "Hunter (Plant)": {
+      "name": "Охотник (Растение)"
+    },
+    "Hunter (Undead)": {
+      "name": "Охотник (Нежить)"
+    },
+    "INS Down": {
+      "name": "Понижение INS"
+    },
+    "INS Up": {
+      "name": "Повышение INS"
+    },
+    "IP Cost Down": {
+      "name": "Снижение Стоимости IP"
+    },
+    "IP Recovery Up": {
+      "name": "Повышение Восстановления IP"
+    },
+    "Ice Absorption": {
+      "name": "Поглощение Льда"
+    },
+    "Ice Damage Reduction": {
+      "name": "Снижение Урона Льдом"
+    },
+    "Ice Damage Up": {
+      "name": "Повышение Урона Льдом"
+    },
+    "Ice Damage Weakness": {
+      "name": "Слабость к Урону Льдом"
+    },
+    "Ice Immunity": {
+      "name": "Иммунитет ко Льду"
+    },
+    "Ice Resistance": {
+      "name": "Сопротивление Льду"
+    },
+    "Ice Spell Damage Up": {
+      "name": "Повышение Урона Заклинаний Льдом"
+    },
+    "Ice Thorns": {
+      "name": "Шипы Льда"
+    },
+    "Ice Vulnerability": {
+      "name": "Уязвимость ко Льду"
+    },
+    "Ignore Absorptions": {
+      "name": "Игнорирование Поглощений"
+    },
+    "Ignore Affinities": {
+      "name": "Игнорирование Аффинити"
+    },
+    "Ignore Immunities": {
+      "name": "Игнорирование Иммунитетов"
+    },
+    "Ignore Resistances": {
+      "name": "Игнорирование Сопротивлений"
+    },
+    "Ignore Vulnerabilities": {
+      "name": "Игнорирование Уязвимостей"
+    },
+    "Inflict Status (Dazed)": {
+      "name": "Наложение Статуса (Ошеломление)"
+    },
+    "Inflict Status (Enraged)": {
+      "name": "Наложение Статуса (Ярость)"
+    },
+    "Inflict Status (Poisoned)": {
+      "name": "Наложение Статуса (Отравление)"
+    },
+    "Inflict Status (Shaken)": {
+      "name": "Наложение Статуса (Потрясение)"
+    },
+    "Inflict Status (Slow)": {
+      "name": "Наложение Статуса (Замедление)"
+    },
+    "Inflict Status (Weak)": {
+      "name": "Наложение Статуса (Ослабление)"
+    },
+    "Initiative Check Up": {
+      "name": "Повышение Проверки Инициативы"
+    },
+    "Light Absorption": {
+      "name": "Поглощение Света"
+    },
+    "Light Damage Reduction": {
+      "name": "Снижение Урона Светом"
+    },
+    "Light Damage Up": {
+      "name": "Повышение Урона Светом"
+    },
+    "Light Damage Weakness": {
+      "name": "Слабость к Урону Светом"
+    },
+    "Light Immunity": {
+      "name": "Иммунитет к Свету"
+    },
+    "Light Resistance": {
+      "name": "Сопротивление Свету"
+    },
+    "Light Spell Damage Up": {
+      "name": "Повышение Урона Заклинаний Светом"
+    },
+    "Light Thorns": {
+      "name": "Шипы Света"
+    },
+    "Light Vulnerability": {
+      "name": "Уязвимость к Свету"
+    },
+    "MDEF Up": {
+      "name": "Повышение MDEF"
+    },
+    "MIG Down": {
+      "name": "Понижение MIG"
+    },
+    "MIG Up": {
+      "name": "Повышение MIG"
+    },
+    "MP Recovery Up": {
+      "name": "Повышение Восстановления MP"
+    },
+    "Magic Check Up": {
+      "name": "Повышение Магической Проверки"
+    },
+    "Melee Damage Up": {
+      "name": "Повышение Урона Ближнего Боя"
+    },
+    "Monster Damage Up": {
+      "name": "Повышение Урона по Монстрам"
+    },
+    "Opposed Check Up (All)": {
+      "name": "Повышение Встречной Проверки (Все)"
+    },
+    "Opposed Check Up (DEX)": {
+      "name": "Повышение Встречной Проверки (DEX)"
+    },
+    "Opposed Check Up (INS)": {
+      "name": "Повышение Встречной Проверки (INS)"
+    },
+    "Opposed Check Up (MIG)": {
+      "name": "Повышение Встречной Проверки (MIG)"
+    },
+    "Opposed Check Up (WLP)": {
+      "name": "Повышение Встречной Проверки (WLP)"
+    },
+    "Physical Absorption": {
+      "name": "Поглощение Физического Урона"
+    },
+    "Physical Damage Reduction": {
+      "name": "Снижение Физического Урона"
+    },
+    "Physical Damage Up": {
+      "name": "Повышение Физического Урона"
+    },
+    "Physical Damage Weakness": {
+      "name": "Слабость к Физическому Урону"
+    },
+    "Physical Immunity": {
+      "name": "Иммунитет к Физическому Урону"
+    },
+    "Physical Resistance": {
+      "name": "Сопротивление Физическому Урону"
+    },
+    "Physical Thorns": {
+      "name": "Физические Шипы"
+    },
+    "Physical Vulnerability": {
+      "name": "Уязвимость к Физическому Урону"
+    },
+    "Plant Damage Up": {
+      "name": "Повышение Урона по Растениям"
+    },
+    "Poison Absorption": {
+      "name": "Поглощение Яда"
+    },
+    "Poison Damage Reduction": {
+      "name": "Снижение Урона Ядом"
+    },
+    "Poison Damage Up": {
+      "name": "Повышение Урона Ядом"
+    },
+    "Poison Damage Weakness": {
+      "name": "Слабость к Урону Ядом"
+    },
+    "Poison Immunity": {
+      "name": "Иммунитет к Яду"
+    },
+    "Poison Resistance": {
+      "name": "Сопротивление Яду"
+    },
+    "Poison Spell Damage Up": {
+      "name": "Повышение Урона Заклинаний Ядом"
+    },
+    "Poison Thorns": {
+      "name": "Шипы Яда"
+    },
+    "Poison Vulnerability": {
+      "name": "Уязвимость к Яду"
+    },
+    "Poisoned Damage Up": {
+      "name": "Повышение Урона по Отравленным"
+    },
+    "Poisoned Immunity": {
+      "name": "Иммунитет к Отравлению"
+    },
+    "Potion HP Restore Up": {
+      "name": "Повышение Восстановления HP Эликсиром"
+    },
+    "Potion MP Restore Up": {
+      "name": "Повышение Восстановления MP Эликсиром"
+    },
+    "Ranged Damage Up": {
+      "name": "Повышение Урона Дальнего Боя"
+    },
+    "Shaken Damage Up": {
+      "name": "Повышение Урона по Потрясённым"
+    },
+    "Shaken Immunity": {
+      "name": "Иммунитет к Потрясению"
+    },
+    "Shard Damage Up": {
+      "name": "Повышение Урона Осколком"
+    },
+    "Skill Damage Change (Air)": {
+      "name": "Смена Урона Навыка (Воздух)"
+    },
+    "Skill Damage Change (Bolt)": {
+      "name": "Смена Урона Навыка (Молния)"
+    },
+    "Skill Damage Change (Dark)": {
+      "name": "Смена Урона Навыка (Тьма)"
+    },
+    "Skill Damage Change (Earth)": {
+      "name": "Смена Урона Навыка (Земля)"
+    },
+    "Skill Damage Change (Fire)": {
+      "name": "Смена Урона Навыка (Огонь)"
+    },
+    "Skill Damage Change (Ice)": {
+      "name": "Смена Урона Навыка (Лёд)"
+    },
+    "Skill Damage Change (Light)": {
+      "name": "Смена Урона Навыка (Свет)"
+    },
+    "Skill Damage Change (Physical)": {
+      "name": "Смена Урона Навыка (Физический)"
+    },
+    "Skill Damage Change (Poison)": {
+      "name": "Смена Урона Навыка (Яд)"
+    },
+    "Skill Damage Change (Untyped)": {
+      "name": "Смена Урона Навыка (Без Типа)"
+    },
+    "Slow Damage Up": {
+      "name": "Повышение Урона по Замедленным"
+    },
+    "Slow Immunity": {
+      "name": "Иммунитет к Замедлению"
+    },
+    "Spear Accuracy Check Up": {
+      "name": "Повышение Проверки Точности Копьём"
+    },
+    "Spear Damage Up": {
+      "name": "Повышение Урона Копьём"
+    },
+    "Spell Damage Change (Air)": {
+      "name": "Смена Урона Заклинания (Воздух)"
+    },
+    "Spell Damage Change (Bolt)": {
+      "name": "Смена Урона Заклинания (Молния)"
+    },
+    "Spell Damage Change (Dark)": {
+      "name": "Смена Урона Заклинания (Тьма)"
+    },
+    "Spell Damage Change (Earth)": {
+      "name": "Смена Урона Заклинания (Земля)"
+    },
+    "Spell Damage Change (Fire)": {
+      "name": "Смена Урона Заклинания (Огонь)"
+    },
+    "Spell Damage Change (Ice)": {
+      "name": "Смена Урона Заклинания (Лёд)"
+    },
+    "Spell Damage Change (Light)": {
+      "name": "Смена Урона Заклинания (Свет)"
+    },
+    "Spell Damage Change (Physical)": {
+      "name": "Смена Урона Заклинания (Физический)"
+    },
+    "Spell Damage Change (Poison)": {
+      "name": "Смена Урона Заклинания (Яд)"
+    },
+    "Spell Damage Change (Untyped)": {
+      "name": "Смена Урона Заклинания (Без Типа)"
+    },
+    "Spell Damage Up": {
+      "name": "Повышение Урона Заклинаний"
+    },
+    "Spell HP Restore Up": {
+      "name": "Повышение Восстановления HP Заклинанием"
+    },
+    "Spell Inflict Status (Dazed)": {
+      "name": "Наложение Статуса Заклинанием (Ошеломление)"
+    },
+    "Spell Inflict Status (Enraged)": {
+      "name": "Наложение Статуса Заклинанием (Ярость)"
+    },
+    "Spell Inflict Status (Poisoned)": {
+      "name": "Наложение Статуса Заклинанием (Отравление)"
+    },
+    "Spell Inflict Status (Shaken)": {
+      "name": "Наложение Статуса Заклинанием (Потрясение)"
+    },
+    "Spell Inflict Status (Slow)": {
+      "name": "Наложение Статуса Заклинанием (Замедление)"
+    },
+    "Spell Inflict Status (Weak)": {
+      "name": "Наложение Статуса Заклинанием (Ослабление)"
+    },
+    "Spell MP Cost Down": {
+      "name": "Снижение Стоимости MP Заклинаний"
+    },
+    "Sword Accuracy Check Up": {
+      "name": "Повышение Проверки Точности Мечом"
+    },
+    "Sword Damage Up": {
+      "name": "Повышение Урона Мечом"
+    },
+    "Thrown Accuracy Check Up": {
+      "name": "Повышение Проверки Точности Метательным Оружием"
+    },
+    "Thrown Damage Up": {
+      "name": "Повышение Урона Метательным Оружием"
+    },
+    "Undead Damage Up": {
+      "name": "Повышение Урона по Нежити"
+    },
+    "Vicious": {
+      "name": "Злобный"
+    },
+    "WLP Down": {
+      "name": "Понижение WLP"
+    },
+    "WLP Up": {
+      "name": "Повышение WLP"
+    },
+    "Weak Damage Up": {
+      "name": "Повышение Урона по Ослабленным"
+    },
+    "Weak Immunity": {
+      "name": "Иммунитет к Ослаблению"
+    },
+    "Weapon Damage Up": {
+      "name": "Повышение Урона Оружием"
+    }
+  }
+}

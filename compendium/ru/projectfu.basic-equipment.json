@@ -1,0 +1,111 @@
+{
+  "label": "Базовое Снаряжение",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "summary": "system.summary.value"
+  },
+  "folders": {
+    "Armor": "Броня",
+    "Shields": "Щиты",
+    "Weapons": "Оружие"
+  },
+  "entries": {
+    "Brigandine": {
+      "name": "Бригантина"
+    },
+    "Broadaxe": {
+      "name": "Широкий Топор"
+    },
+    "Bronze Plate": {
+      "name": "Бронзовая Пластина"
+    },
+    "Bronze Shield": {
+      "name": "Бронзовый Щит"
+    },
+    "Bronze Sword": {
+      "name": "Бронзовый Меч"
+    },
+    "Chain Whip": {
+      "name": "Цепной Хлыст"
+    },
+    "Combat Tunic": {
+      "name": "Боевая Туника"
+    },
+    "Crossbow": {
+      "name": "Арбалет"
+    },
+    "Greatsword": {
+      "name": "Двуручный Меч"
+    },
+    "Heavy Spear": {
+      "name": "Тяжёлое Копьё"
+    },
+    "Improvised (Melee)": {
+      "name": "Импровизированное (Ближний Бой)",
+      "description": "<p>Ломается после атаки.</p>"
+    },
+    "Improvised (Ranged)": {
+      "name": "Импровизированное (Дальний Бой)",
+      "description": "<p>Ломается после атаки.</p>"
+    },
+    "Iron Hammer": {
+      "name": "Железный Молот"
+    },
+    "Iron Knuckle": {
+      "name": "Железный Кастет"
+    },
+    "Katana": {
+      "name": "Катана"
+    },
+    "Light Spear": {
+      "name": "Лёгкое Копьё"
+    },
+    "Pistol": {
+      "name": "Пистолет"
+    },
+    "Rapier": {
+      "name": "Рапира"
+    },
+    "Runic Plate": {
+      "name": "Руническая Пластина"
+    },
+    "Runic Shield": {
+      "name": "Рунический Щит"
+    },
+    "Sage Robe": {
+      "name": "Мантия Мудреца"
+    },
+    "Shortbow": {
+      "name": "Короткий Лук"
+    },
+    "Shuriken": {
+      "name": "Сюрикэн"
+    },
+    "Silk Shirt": {
+      "name": "Шёлковая Рубашка"
+    },
+    "Staff": {
+      "name": "Посох"
+    },
+    "Steel Dagger": {
+      "name": "Стальной Кинжал"
+    },
+    "Steel Plate": {
+      "name": "Стальная Пластина"
+    },
+    "Tome": {
+      "name": "Фолиант"
+    },
+    "Travel Garb": {
+      "name": "Дорожная Одежда"
+    },
+    "Unarmed Strike": {
+      "name": "Безоружный Удар",
+      "description": "<p>Автоматически экипируется в каждый пустой слот руки.</p>"
+    },
+    "Waraxe": {
+      "name": "Боевой Топор"
+    }
+  }
+}

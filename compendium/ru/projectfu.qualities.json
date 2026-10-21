@@ -1,0 +1,518 @@
+{
+  "label": "Качества",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "summary": "system.summary.value"
+  },
+  "folders": {
+    "Absorbing": "Поглощение",
+    "Check": "Проверка",
+    "Damage Change": "Смена Урона",
+    "Defensive": "Защитное",
+    "Effects": "Эффекты",
+    "Immunity": "Иммунитет",
+    "Offensive": "Наступательное",
+    "Resistance": "Сопротивление",
+    "Resource": "Ресурс",
+    "Skill": "Навык",
+    "Status": "Статус"
+  },
+  "entries": {
+    "Absorbing (Air)": {
+      "name": "Поглощение (Воздух)"
+    },
+    "Absorbing (Bolt)": {
+      "name": "Поглощение (Молния)"
+    },
+    "Absorbing (Dark)": {
+      "name": "Поглощение (Тьма)"
+    },
+    "Absorbing (Earth)": {
+      "name": "Поглощение (Земля)"
+    },
+    "Absorbing (Fire)": {
+      "name": "Поглощение (Огонь)"
+    },
+    "Absorbing (Ice)": {
+      "name": "Поглощение (Лёд)"
+    },
+    "Absorbing (Light)": {
+      "name": "Поглощение (Свет)"
+    },
+    "Absorbing (Poison)": {
+      "name": "Поглощение (Яд)"
+    },
+    "Accuracy Up": {
+      "name": "Повышение Точности"
+    },
+    "Alchemist": {
+      "name": "Алхимик"
+    },
+    "Amulet": {
+      "name": "Амулет"
+    },
+    "Antistatus (Dazed)": {
+      "name": "Антистатус (Ошеломление)"
+    },
+    "Antistatus (Enraged)": {
+      "name": "Антистатус (Ярость)"
+    },
+    "Antistatus (Poisoned)": {
+      "name": "Антистатус (Отравление)"
+    },
+    "Antistatus (Shaken)": {
+      "name": "Антистатус (Потрясение)"
+    },
+    "Antistatus (Slow)": {
+      "name": "Антистатус (Замедление)"
+    },
+    "Antistatus (Weak)": {
+      "name": "Антистатус (Ослабление)"
+    },
+    "Assassin": {
+      "name": "Убийца"
+    },
+    "Bond Boost": {
+      "name": "Усиление Уз"
+    },
+    "Bulwark": {
+      "name": "Оплот"
+    },
+    "Challenger": {
+      "name": "Претендент"
+    },
+    "Crisis Shock (Dazed)": {
+      "name": "Кризисный Шок (Ошеломление)"
+    },
+    "Crisis Shock (Shaken)": {
+      "name": "Кризисный Шок (Потрясение)"
+    },
+    "Crisis Shock (Slow)": {
+      "name": "Кризисный Шок (Замедление)"
+    },
+    "Crisis Shock (Weak)": {
+      "name": "Кризисный Шок (Ослабление)"
+    },
+    "Damage Change": {
+      "name": "Смена Урона"
+    },
+    "Damage Change (Air)": {
+      "name": "Смена Урона (Воздух)"
+    },
+    "Damage Change (Bolt)": {
+      "name": "Смена Урона (Молния)"
+    },
+    "Damage Change (Dark)": {
+      "name": "Смена Урона (Тьма)"
+    },
+    "Damage Change (Earth)": {
+      "name": "Смена Урона (Земля)"
+    },
+    "Damage Change (Fire)": {
+      "name": "Смена Урона (Огонь)"
+    },
+    "Damage Change (Ice)": {
+      "name": "Смена Урона (Лёд)"
+    },
+    "Damage Change (Light)": {
+      "name": "Смена Урона (Свет)"
+    },
+    "Damage Change (Physical)": {
+      "name": "Смена Урона (Физический)"
+    },
+    "Damage Change (Poison)": {
+      "name": "Смена Урона (Яд)"
+    },
+    "Damage Change (Untyped)": {
+      "name": "Смена Урона (Без Типа)"
+    },
+    "Deaththrow": {
+      "name": "Смертельный Бросок"
+    },
+    "Desperado": {
+      "name": "Отчаянный"
+    },
+    "Disenchanting": {
+      "name": "Расчаровывающее"
+    },
+    "Dual Hunter": {
+      "name": "Двойной Охотник"
+    },
+    "Dual Immunity": {
+      "name": "Двойной Иммунитет"
+    },
+    "Dual Resistance": {
+      "name": "Двойное Сопротивление"
+    },
+    "Elemental Bath": {
+      "name": "Элементальная Ванна"
+    },
+    "Encouraging": {
+      "name": "Воодушевляющее"
+    },
+    "Envious": {
+      "name": "Завистливое"
+    },
+    "Exhausting": {
+      "name": "Изнуряющее"
+    },
+    "Expansive": {
+      "name": "Обширное"
+    },
+    "Extra M. Healing": {
+      "name": "Доп. Магическое Исцеление"
+    },
+    "Fabulous": {
+      "name": "Сказочное"
+    },
+    "Flowing": {
+      "name": "Текучее"
+    },
+    "Friendly": {
+      "name": "Дружелюбное"
+    },
+    "Grounding": {
+      "name": "Заземляющее"
+    },
+    "Healing Up": {
+      "name": "Повышение Исцеления"
+    },
+    "Health Absorbtion": {
+      "name": "Поглощение Здоровья"
+    },
+    "Heroic": {
+      "name": "Героическое"
+    },
+    "Hounding": {
+      "name": "Преследующее"
+    },
+    "Hunter": {
+      "name": "Охотник"
+    },
+    "Immunity (Air)": {
+      "name": "Иммунитет (Воздух)"
+    },
+    "Immunity (Bolt)": {
+      "name": "Иммунитет (Молния)"
+    },
+    "Immunity (Dark)": {
+      "name": "Иммунитет (Тьма)"
+    },
+    "Immunity (Earth)": {
+      "name": "Иммунитет (Земля)"
+    },
+    "Immunity (Fire)": {
+      "name": "Иммунитет (Огонь)"
+    },
+    "Immunity (Ice)": {
+      "name": "Иммунитет (Лёд)"
+    },
+    "Immunity (Light)": {
+      "name": "Иммунитет (Свет)"
+    },
+    "Immunity (Poison)": {
+      "name": "Иммунитет (Яд)"
+    },
+    "Initiative Up": {
+      "name": "Повышение Инициативы"
+    },
+    "Killer": {
+      "name": "Убийца"
+    },
+    "Lesser Accuracy Up (Arcane)": {
+      "name": "Малое Повышение Точности (Арканное)"
+    },
+    "Lesser Accuracy Up (Bow)": {
+      "name": "Малое Повышение Точности (Лук)"
+    },
+    "Lesser Accuracy Up (Brawling)": {
+      "name": "Малое Повышение Точности (Безоружное)"
+    },
+    "Lesser Accuracy Up (Dagger)": {
+      "name": "Малое Повышение Точности (Кинжал)"
+    },
+    "Lesser Accuracy Up (Firearm)": {
+      "name": "Малое Повышение Точности (Огнестрельное)"
+    },
+    "Lesser Accuracy Up (Flail)": {
+      "name": "Малое Повышение Точности (Цеп)"
+    },
+    "Lesser Accuracy Up (Heavy)": {
+      "name": "Малое Повышение Точности (Тяжёлое)"
+    },
+    "Lesser Accuracy Up (Spear)": {
+      "name": "Малое Повышение Точности (Копьё)"
+    },
+    "Lesser Accuracy Up (Sword)": {
+      "name": "Малое Повышение Точности (Меч)"
+    },
+    "Lesser Accuracy Up (Thrown)": {
+      "name": "Малое Повышение Точности (Метательное)"
+    },
+    "Lesser Perfect Health": {
+      "name": "Малое Идеальное Здоровье"
+    },
+    "Lesser Weapon Up (Arcane)": {
+      "name": "Малое Усиление Оружия (Арканное)"
+    },
+    "Lesser Weapon Up (Bow)": {
+      "name": "Малое Усиление Оружия (Лук)"
+    },
+    "Lesser Weapon Up (Brawling)": {
+      "name": "Малое Усиление Оружия (Безоружное)"
+    },
+    "Lesser Weapon Up (Firearm)": {
+      "name": "Малое Усиление Оружия (Огнестрельное)"
+    },
+    "Lesser Weapon Up (Flail)": {
+      "name": "Малое Усиление Оружия (Цеп)"
+    },
+    "Lesser Weapon Up (Heavy)": {
+      "name": "Малое Усиление Оружия (Тяжёлое)"
+    },
+    "Lesser Weapon Up (Spear)": {
+      "name": "Малое Усиление Оружия (Копьё)"
+    },
+    "Lesser Weapon Up (Sword)": {
+      "name": "Малое Усиление Оружия (Меч)"
+    },
+    "Lesser Weapon Up (Thrown)": {
+      "name": "Малое Усиление Оружия (Метательное)"
+    },
+    "Looting": {
+      "name": "Мародёрство"
+    },
+    "M. Status (Dazed)": {
+      "name": "Маг. Статус (Ошеломление)"
+    },
+    "M. Status (Shaken)": {
+      "name": "Маг. Статус (Потрясение)"
+    },
+    "M. Status (Slow)": {
+      "name": "Маг. Статус (Замедление)"
+    },
+    "M. Status (Weak)": {
+      "name": "Маг. Статус (Ослабление)"
+    },
+    "M. Status Plus (Enraged)": {
+      "name": "Маг. Статус Плюс (Ярость)"
+    },
+    "M. Status Plus (Poisoned)": {
+      "name": "Маг. Статус Плюс (Отравление)"
+    },
+    "Magic Up": {
+      "name": "Повышение Магии"
+    },
+    "Magical": {
+      "name": "Магическое"
+    },
+    "Mastered": {
+      "name": "Освоенное"
+    },
+    "Meditative": {
+      "name": "Медитативное"
+    },
+    "Melee Weapon Up": {
+      "name": "Усиление Ближнего Оружия"
+    },
+    "Mind Drain": {
+      "name": "Истощение Разума"
+    },
+    "Minstrel": {
+      "name": "Менестрель"
+    },
+    "Multi": {
+      "name": "Мульти"
+    },
+    "Multi Accuracy": {
+      "name": "Мульти Точность"
+    },
+    "Multi Plus": {
+      "name": "Мульти Плюс"
+    },
+    "Omnishield": {
+      "name": "Омнищит"
+    },
+    "Onion": {
+      "name": "Луковица"
+    },
+    "Opposing": {
+      "name": "Противодействующее"
+    },
+    "Perfect Health": {
+      "name": "Идеальное Здоровье"
+    },
+    "Piercing": {
+      "name": "Пробивающее"
+    },
+    "Piercing Plus": {
+      "name": "Пробивающее Плюс"
+    },
+    "Piercing Spell": {
+      "name": "Пробивающее Заклинание"
+    },
+    "Protection from Species": {
+      "name": "Защита от Вида"
+    },
+    "Punishing (Enraged)": {
+      "name": "Карающий (Ярость)"
+    },
+    "Punishing (Poisoned)": {
+      "name": "Карающий (Отравление)"
+    },
+    "Punishing (Shaken)": {
+      "name": "Карающий (Потрясение)"
+    },
+    "Punishing (Slow)": {
+      "name": "Карающий (Замедление)"
+    },
+    "Punishing (Weak)": {
+      "name": "Карающий (Ослабление)"
+    },
+    "Ranged Weapon Up": {
+      "name": "Усиление Дальнобойного Оружия"
+    },
+    "Reaching": {
+      "name": "Досягающее"
+    },
+    "Resistance (Air)": {
+      "name": "Сопротивление (Воздух)"
+    },
+    "Resistance (Bolt)": {
+      "name": "Сопротивление (Молния)"
+    },
+    "Resistance (Dark)": {
+      "name": "Сопротивление (Тьма)"
+    },
+    "Resistance (Earth)": {
+      "name": "Сопротивление (Земля)"
+    },
+    "Resistance (Fire)": {
+      "name": "Сопротивление (Огонь)"
+    },
+    "Resistance (Ice)": {
+      "name": "Сопротивление (Лёд)"
+    },
+    "Resistance (Light)": {
+      "name": "Сопротивление (Свет)"
+    },
+    "Resistance (Poison)": {
+      "name": "Сопротивление (Яд)"
+    },
+    "Rookie": {
+      "name": "Новичок"
+    },
+    "Servant (HP)": {
+      "name": "Слуга (HP)"
+    },
+    "Servant (MP)": {
+      "name": "Слуга (MP)"
+    },
+    "Specialized": {
+      "name": "Специализированное"
+    },
+    "Spell Boost": {
+      "name": "Усиление Заклинаний"
+    },
+    "Spell Up": {
+      "name": "Повышение Заклинаний"
+    },
+    "Stat Up (DEX)": {
+      "name": "Повышение Характеристики (DEX)"
+    },
+    "Stat Up (INS)": {
+      "name": "Повышение Характеристики (INS)"
+    },
+    "Stat Up (MIG)": {
+      "name": "Повышение Характеристики (MIG)"
+    },
+    "Stat Up (WLP)": {
+      "name": "Повышение Характеристики (WLP)"
+    },
+    "Status (Dazed)": {
+      "name": "Статус (Ошеломление)"
+    },
+    "Status (Shaken)": {
+      "name": "Статус (Потрясение)"
+    },
+    "Status (Slow)": {
+      "name": "Статус (Замедление)"
+    },
+    "Status (Weak)": {
+      "name": "Статус (Ослабление)"
+    },
+    "Status Pierce (Dazed)": {
+      "name": "Пробивание Статуса (Ошеломление)"
+    },
+    "Status Pierce (Enraged)": {
+      "name": "Пробивание Статуса (Ярость)"
+    },
+    "Status Pierce (Poisoned)": {
+      "name": "Пробивание Статуса (Отравление)"
+    },
+    "Status Pierce (Shaken)": {
+      "name": "Пробивание Статуса (Потрясение)"
+    },
+    "Status Pierce (Slow)": {
+      "name": "Пробивание Статуса (Замедление)"
+    },
+    "Status Pierce (Weak)": {
+      "name": "Пробивание Статуса (Ослабление)"
+    },
+    "Status Plus (Enraged)": {
+      "name": "Статус Плюс (Ярость)"
+    },
+    "Status Plus (Poisoned)": {
+      "name": "Статус Плюс (Отравление)"
+    },
+    "Swordbreaker": {
+      "name": "Мечелом"
+    },
+    "Unburdened": {
+      "name": "Необременённое"
+    },
+    "Valkyrie": {
+      "name": "Валькирия"
+    },
+    "Vengeful": {
+      "name": "Мстительный"
+    },
+    "Vengeful (Air)": {
+      "name": "Мстительный (Воздух)"
+    },
+    "Vengeful (Bolt)": {
+      "name": "Мстительный (Молния)"
+    },
+    "Vengeful (Dark)": {
+      "name": "Мстительный (Тьма)"
+    },
+    "Vengeful (Earth)": {
+      "name": "Мстительный (Земля)"
+    },
+    "Vengeful (Fire)": {
+      "name": "Мстительный (Огонь)"
+    },
+    "Vengeful (Ice)": {
+      "name": "Мстительный (Лёд)"
+    },
+    "Vengeful (Light)": {
+      "name": "Мстительный (Свет)"
+    },
+    "Vengeful (Physical)": {
+      "name": "Мстительный (Физический)"
+    },
+    "Vengeful (Poison)": {
+      "name": "Мстительный (Яд)"
+    },
+    "Vitality Up": {
+      "name": "Повышение Живучести"
+    },
+    "Wanderer": {
+      "name": "Странник"
+    },
+    "Warding": {
+      "name": "Оберегающее"
+    }
+  }
+}

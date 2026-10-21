@@ -1,0 +1,169 @@
+{
+  "label": "Модули Транспорта",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "summary": "system.summary.value"
+  },
+  "folders": {
+    "Anti-Element Module": "Антиэлементный Модуль",
+    "Armor Modules": "Модули Брони",
+    "Effects": "Эффекты",
+    "Expanded Plating Module": "Модуль Расширенного Покрытия",
+    "Support Modules": "Модули Поддержки",
+    "Vehicle Frames": "Рамы Транспорта",
+    "Weapons Modules": "Модули Оружия"
+  },
+  "entries": {
+    "Advanced Targeting Module": {
+      "name": "Модуль Продвинутого Наведения"
+    },
+    "Aerial Module": {
+      "name": "Воздушный Модуль"
+    },
+    "Anti-Element Module": {
+      "name": "Антиэлементный Модуль"
+    },
+    "Arcane Module": {
+      "name": "Арканный Модуль"
+    },
+    "Axe Module": {
+      "name": "Модуль Топора"
+    },
+    "Blade Module": {
+      "name": "Модуль Клинка"
+    },
+    "Bow Module": {
+      "name": "Модуль Лука"
+    },
+    "Cannon Module": {
+      "name": "Модуль Пушки"
+    },
+    "Claw Module": {
+      "name": "Модуль Когтя"
+    },
+    "Claymore Module": {
+      "name": "Модуль Клеймора"
+    },
+    "Counterstrike Module": {
+      "name": "Модуль Контрудара"
+    },
+    "Effect: Anti-Element Module (Air)": {
+      "name": "Эффект: Антиэлементный Модуль (Воздух)"
+    },
+    "Effect: Anti-Element Module (Bolt)": {
+      "name": "Эффект: Антиэлементный Модуль (Молния)"
+    },
+    "Effect: Anti-Element Module (Earth)": {
+      "name": "Эффект: Антиэлементный Модуль (Земля)"
+    },
+    "Effect: Anti-Element Module (Fire)": {
+      "name": "Эффект: Антиэлементный Модуль (Огонь)"
+    },
+    "Effect: Anti-Element Module (Ice)": {
+      "name": "Эффект: Антиэлементный Модуль (Лёд)"
+    },
+    "Effect: Expanded Plating Module (Heavy)": {
+      "name": "Эффект: Модуль Расширенного Покрытия (Тяжёлое)"
+    },
+    "Effect: Expanded Plating Module (Runic)": {
+      "name": "Эффект: Модуль Расширенного Покрытия (Руническое)"
+    },
+    "Effect: Expanded Plating Module (Standard)": {
+      "name": "Эффект: Модуль Расширенного Покрытия (Стандартное)"
+    },
+    "Effect: Passenger": {
+      "name": "Эффект: Пассажир"
+    },
+    "Effect: Power Module": {
+      "name": "Эффект: Модуль Силы"
+    },
+    "Effect: Sensor Module": {
+      "name": "Эффект: Модуль Сенсоров"
+    },
+    "Effect: Turbo Module": {
+      "name": "Эффект: Турбо-Модуль"
+    },
+    "Esoteric Module": {
+      "name": "Эзотерический Модуль"
+    },
+    "Excavation Module": {
+      "name": "Модуль Копания"
+    },
+    "Exoskeleton Frame": {
+      "name": "Рама Экзоскелет"
+    },
+    "Expanded Plating Module": {
+      "name": "Модуль Расширенного Покрытия"
+    },
+    "Flail Module": {
+      "name": "Модуль Цепа"
+    },
+    "Flamer Module": {
+      "name": "Модуль Огнемёта"
+    },
+    "Flexible Plating Module": {
+      "name": "Модуль Гибкого Покрытия"
+    },
+    "Heavy Plating Module": {
+      "name": "Модуль Тяжёлого Покрытия"
+    },
+    "Machine Gun Module": {
+      "name": "Модуль Пулемёта"
+    },
+    "Magistatic Module": {
+      "name": "Магистатический Модуль"
+    },
+    "Mecha Frame": {
+      "name": "Рама Меха"
+    },
+    "Power Module": {
+      "name": "Модуль Силы"
+    },
+    "Rapid Interface Module": {
+      "name": "Модуль Быстрого Интерфейса"
+    },
+    "Rifle Module": {
+      "name": "Модуль Винтовки"
+    },
+    "Runic Plating Module": {
+      "name": "Модуль Рунического Покрытия"
+    },
+    "Scythe Module": {
+      "name": "Модуль Косы"
+    },
+    "Seafarer Module": {
+      "name": "Морской Модуль"
+    },
+    "Seat Module": {
+      "name": "Модуль Сиденья"
+    },
+    "Secondary Offensive Module": {
+      "name": "Модуль Вторичного Наступления"
+    },
+    "Sensor Module": {
+      "name": "Модуль Сенсоров"
+    },
+    "Shield Module": {
+      "name": "Модуль Щита"
+    },
+    "Spear Module": {
+      "name": "Модуль Копья"
+    },
+    "Standard Plating Module": {
+      "name": "Модуль Стандартного Покрытия"
+    },
+    "Steed Frame": {
+      "name": "Рама Скакун"
+    },
+    "Sword Module": {
+      "name": "Модуль Меча"
+    },
+    "Trident Module": {
+      "name": "Модуль Трезубца"
+    },
+    "Turbo Module": {
+      "name": "Турбо-Модуль"
+    }
+  }
+}
